@@ -24,7 +24,7 @@ public class switchy2 : MonoBehaviour
         PlayerLamp.SetActive(false);
         Player.transform.position = new Vector3(-1, 97, 111);
         Debug.Log("An object entered.");
-        presense = presense + .1f;
+        presense = presense + .2f;
         hissie.setAlpha(presense);
         hissie.rend.enabled = true;
     }
