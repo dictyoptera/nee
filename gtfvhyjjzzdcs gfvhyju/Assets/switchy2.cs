@@ -13,6 +13,7 @@ public class switchy2 : MonoBehaviour
     public float presense;
     public GameObject figure;
     public fadeeeee hissie;
+   
 
 
     public void OnTriggerEnter(Collider other)
@@ -27,5 +28,6 @@ public class switchy2 : MonoBehaviour
         presense = presense + .2f;
         hissie.setAlpha(presense);
         hissie.rend.enabled = true;
+       
     }
 }
